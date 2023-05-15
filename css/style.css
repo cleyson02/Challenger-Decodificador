@@ -41,8 +41,10 @@ main {
 
 .mensagem {
     background: #FFFFFF;
-    background-image: url();
+    background-image: url(/img/robo.png);
     background-repeat: no-repeat;
+    background-size: 15% auto;
+    background-position: center;
     border: none;
     border-radius: 25px;
     color: #0A3871;
@@ -50,12 +52,9 @@ main {
     margin-top: 20px;
     position: fixed;
     resize: none;
-    pointer-events: none;
-    user-select: none;
 }
 
 .mensagem::placeholder {
-    text-align: center;
     font-size: 20px;
     color: #0A3871;
 }
