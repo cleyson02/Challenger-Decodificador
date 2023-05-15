@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="imagens/logo.png" alt="Logo">
+    </header>
+
+    <main>
+        <section>
+            <textarea class="text-area" cols="40" rows="5" placeholder="Digite seu texto"></textarea>
+
+            <div class="informacao">
+                <h6>&#9888; Apenas letras minúsculas e sem acento.</h6>
+            </div>
+
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section>
+            <textarea class="mensagem" cols="20" rows="10"></textarea>
+
+            <button class="btn-copiar" onclick="copyText()">Copiar</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+    <footer class="rodape">
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/cleyson02/"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://github.com/cleyson02"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
+        <p class="Copyright">&copy; Desenvolvido por Cleyson - 2023</p>
+    
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
